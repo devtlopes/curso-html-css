@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+
+body{
+    background-color: rgba(94, 255, 0, 0.89);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h1#main-h1{
+    text-align: center;
+    background-image: linear-gradient(to top, #fffb00ef, #ff3c00 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    background-color: red;
+}

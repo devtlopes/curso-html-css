@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fuzzy+Bubbles&family=Pacifico&family=Smooch&display=swap');
+
+:root{
+    --color1: #D7D8C9;
+    --color2: #A4A68A;
+    --color3: #57523E;
+    --color4: #F2BE24;
+    --color5: #D94C1A;
+
+    --font-primaria: 'Bebas Neue', cursive;
+    --font-secundaria: 'Fuzzy Bubbles', cursive;
+    --font-terciaria: 'pacifico', cursive;
+    --font-quartenaria: 'Smooch', cursive;
+}
+
+body{
+    background-color: var(--color1);
+}
+
+header{
+    background-color: var(--color5);
+    
+}
+
+header > img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: var(--color4);
+}
+
+ nav ul li{
+      display: inline-block;
+      padding: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: var(--color3);
+}
+
+nav ul li a:hover{
+    background-color: var(--color5);
+    padding: 5px;
+    color: var(--color4);
+}
+
+header > h1{
+    padding: 5px;
+    margin-left: 8px;
+}
+
+main > h1{
+    font-family: var(--font-quartenaria);
+    font-size: 4em;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--color3);
+    padding-top: 15px;
+}
+
+main > p{
+    font-family: var(--font-primaria);
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--color4);
+}
+
+.main-foto{
+    margin-left: 350px;
+    width: 900px;
+    height: 450px;
+}

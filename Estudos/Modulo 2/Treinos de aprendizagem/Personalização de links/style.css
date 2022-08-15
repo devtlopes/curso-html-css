@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #EEEAE4;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h1{
+    font-family: "Lobster", sans-serif;
+    color: #121F46;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.links{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2em;
+    color: #213F88;
+    margin-top: 116px;
+}
+
+.links li{
+    background-color: #3B88A1;
+    width: 17%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: 581px;
+
+}
+
+.links ul li{
+    margin-top: 530px;
+}
+
+a:hover{
+    color: #A8C2DB;
+}
+
+a:active{
+    color: #121F46;
+}
+

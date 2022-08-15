@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@100&display=swap');
+
+@font-face {
+    font-family: "android";
+    src: url(./fontes/idroid.otf) format('Opentype');
+}
+
+body{
+   background-color: rgb(173, 166, 102);
+}
+
+header{
+    background-image: linear-gradient(to top, #064406, #05a105);
+    height: 235px;
+    margin: -21px -8px;
+}
+
+.bg-all{
+    background-color: #f6f6f6;
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    box-shadow: 2px 8px 17px black;
+    border-radius: 10px;
+}
+
+.ft-top{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #f6f6f6;
+    padding-top: 50px;
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #f6f6f6;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.menu{
+    margin: 60px 11px;
+    padding-left: 8px;
+}
+
+.menu a:hover{
+    background-color: #05a105;
+    padding: 10px;
+    color: #064406;
+}
+
+nav > a{
+    color: #f6f6f6;
+    padding-right: 33px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.sec-title{
+      font-family: 'android', sans-serif;
+      font-size: 2em;
+      color: rgba(2, 107, 2, 0.76);
+      padding: 26px 23px 13px;
+      margin: 21px 0 -7px 1px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+.link1{
+    background-color: #00ff00;
+    color: darkgreen;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.link2{
+    color: darkgreen;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.back-title{
+    background-image: linear-gradient(to right, #99f099, #ffffffe5);
+    font-family: 'android', sans-serif;
+    color: darkgreen;
+    width: 95%;
+    padding: 0 9px;
+    margin: 0 13px;
+}
+
+img{
+    margin: 2px 100px;
+}
+
+strong{
+    color: darkgreen;
+    font-weight: bolder;
+    font-family: 'Roboto',sans-serif;
+}
+
+.bugdroid-foto{
+    margin: 10px 328px;
+}
+
+iframe{
+    margin: 35px 55px;
+    
+}
+
+.bg-video{
+    background-color: darkgreen;
+    width: 1000px;
+    height: 632px;
+}
+
+.top-barquest{
+    margin: 42px;
+    width: 911px;
+    height: 38px;
+    background-color: rgb(3, 36, 3);
+    color: #f6f6f6;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 10px 0 10px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li::before{
+    content: '✓';
+}
+
+.quest-box{
+    background-color: mediumseagreen;
+    width: 931px;
+    margin: -43px 42px;
+    height: 413px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 2px 2px 15px rgb(58, 57, 57);
+}
+
+.droid-list{
+    padding: 0px 0px 0px 0px;
+}
+
+.droid-list2{
+    margin-left: 492px;
+    margin-top: -170px;
+}
+
+.txt-droid{
+    padding: 20px 12px 0px 13px;
+}
+
+.last-line{
+    margin: 56px 0px 0px 19px;;
+}
+
+footer{
+    background-color: rgb(3, 54, 3);
+    width: 100%;
+    color: #f6f6f6;
+    
+}
+
+.footer-txt{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #f6f6f6;
+}
+
+.foo-tex{
+    text-align: center;
+    margin-bottom: -7px;
+    padding: 5px;
+}

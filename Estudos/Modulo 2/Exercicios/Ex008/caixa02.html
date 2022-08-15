@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@300&display=swap');
+        body{
+            background-color: #f6f6f6;
+            margin: 0px;
+        }
+
+        h1{
+            font-family: "Alfa Slab One", sans-serif;
+            font-size: 2em;
+            color: rgb(1, 1, 99);
+            margin: 2px 24px;
+        }
+
+        nav{
+            background-color: #A3A1A8;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 12px 7px 13px rgba(77, 76, 76, 0.658);
+        }
+
+        a{
+            padding: 0 15px 0 0;
+            font-family:"Oswald", sans-serif;
+            font-weight: bolder;
+            font-size: 1.3em;
+            text-decoration: none;
+            padding-left: 12px;
+            color: #f6f6f6;
+        }
+
+        p{
+            margin: 5px 5px ;
+            border-radius: 16px 16px 16px 16px;
+            text-align: left;
+        }
+
+        h2{
+            font-family: "Alfa Slab One", sans-serif;
+            font-size: 3em;
+            color: darkgrey;
+            margin-left: 24px;
+            margin-bottom: 6px;
+
+        }
+
+        .assuntos > .catalogo{
+            background-color: rgb(58, 57, 57);
+            margin: 0 ;
+        }
+
+        article > p{
+            font-family: "Oswald", sans-serif;
+            background-color: rgb(143, 143, 143);
+            font-size: 1.5em;
+            text-indent: 20px;
+            color: #f6f6f6;
+            text-align: center;
+        }
+
+        article > h2{
+            outline: black;
+        }
+
+        aside > .aside{
+            font-family: "Oswald", sans-serif;
+            font-size: 1em;
+            color: #A3A1A8;
+        }
+
+        footer{
+            font-family: "Oswald", sans-serif;
+            font-size: 1.2em;
+            font-weight: bolder;
+            background-color: #7F7F7F;
+            color: #f6f6f6;
+            text-align: center;
+            height: 30px;
+            padding: 5px 0 5px 0;
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Noticia</a>
+            <a href="#">Esportes</a>
+            <a href="#">Politica</a>
+            <a href="#">Cultura Pop</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p class="catalogo">Noticias ♢ Esportes ♢ Cultura</p>
+        </section>
+        <section id="noticias">
+              <article>
+                  <h2>Noticias sobre o Brasil</h2>
+                  <p class="materia">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quibusdam alias, cumque sint maxime aliquid, labore iste ipsum dicta nostrum accusantium reiciendis neque! Dolor molestias quas suscipit quam voluptatem facere quae! Quisquam iure enim delectus fugiat explicabo tempora voluptatum optio quasi dignissimos corporis quos eum deserunt cum similique ipsam magni, officiis ab eius deleniti veritatis omnis voluptate consequuntur temporibus placeat! Quibusdam quia assumenda atque deserunt. Suscipit optio iste in impedit fugit eius, culpa quisquam, eveniet accusantium vero veniam, sint numquam voluptatem. Ut dicta eaque veritatis sed. Ratione, delectus mollitia quos eum aspernatur voluptatum? Voluptas tempore neque blanditiis veritatis nihil! Natus.</p>
+              </article>
+              <aside>
+                  <p class="aside">Artigo Escrito por Thainã Lopes</p>
+              </aside>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Boonmeb Dev&copy;
+    </footer>
+</body>
+</html>
