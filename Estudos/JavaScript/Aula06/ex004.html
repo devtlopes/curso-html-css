@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome =window.prompt('Qual é o seu nome?')
+        document.write(' Olá, <b>'+ nome + '</b> Seu nome tem ' + nome.length + ' letras.</br> ')
+        document.write('Seu nome em letras maiusculas é ' + nome.toUpperCase() + '!</br>')
+        document.write(' Seu nome em letras minusculas é ' + nome.toLowerCase())
+        var salario = window.prompt('Qual é a sua pretenção salarial?')
+        salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+        window.confirm('Você deseja confirmar esse valor?')
+        window.alert('Seu salario de ' + salario + ' foi confirmado com sucesso')
+    </script>
+</body>
+</html>

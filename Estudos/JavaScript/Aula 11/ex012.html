@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        div#res{
+            font: normal 20pt Arial;
+            background-color: darkcyan;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Nacionalidade</h1>
+    <div id="res"></div>
+onde você nasceu? <input type="text" name="pais" id="pais">
+<input type="button" value="Pesquisar" onclick="clicar()">
+ <script>
+     function clicar(){
+         var paisp = window.document.getElementById('pais')
+         var res = window.document.getElementById('res')
+         var vel = String(paisp.value)
+         res.innerText = 'Seu pais é' + vel
+         if (vel =='Brasil'){
+             res.innerHTML = 'Você é Brasileiro!'
+         }else{
+             res.innerHTML = 'Você é Estrangeiro!'
+         }
+
+     }
+      
+ </script>
+
+    
+</body>
+</html>
