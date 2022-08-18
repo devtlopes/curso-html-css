@@ -32,7 +32,7 @@ body{
     transform: translate(-50%, -50%);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 50px;
+    padding-top: 60px;
     
 }
 
@@ -52,8 +52,22 @@ a{
 }
 
 .bg-img1{
-    height: 50vh;
+    position: relative;
+    height: 80vh;
     background-image: url(../imagem/background001.jpg);
-    background-size: 100% 100%;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
+}
+
+.img-txt{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    font-size: 2em;
+    font-weight: 800;
+    color: wheat;
+    padding: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.379);
 }
